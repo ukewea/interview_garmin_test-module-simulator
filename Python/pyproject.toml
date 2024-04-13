@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-motule-simulator"
+version = "0.1.0"
+description = ""
+authors = ["Andy Lee <60734042+ukewea@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "test_motule_simulator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+openpyxl = "^3.1.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

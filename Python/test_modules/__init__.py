@@ -1,0 +1,3 @@
+from .abstract_test_module import AbstractTestModule
+from .auto_test_module import AutoTestModule
+from .manual_test_module import ManualTestModule
